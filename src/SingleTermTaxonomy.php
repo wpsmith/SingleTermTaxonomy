@@ -3,6 +3,7 @@
  * Taxonomy Single Class
  *
  * Assists in the creation and management of Single Taxonomies.
+ * Adapted from WebDevStudios (https://github.com/WebDevStudios/Taxonomy_Single_Term).
  *
  * You may copy, distribute and modify the software as long as you track changes/dates in source files.
  * Any modifications to or software including (via compiler) GPL-licensed code must also be made
