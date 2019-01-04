@@ -43,7 +43,7 @@ if ( ! class_exists( 'WPS\Taxonomies\SingleTermTaxonomy' ) ) {
 	 * $custom_tax_mb->set( 'allow_new_terms', true );
 	 *
 	 * @link     http://codex.wordpress.org/Function_Reference/add_meta_box#Parameters
-	 * @link     https://github.com/WebDevStudios/SingleTermTaxonomy/blob/master/README.md
+	 * @link     https://github.com/wpsmith/SingleTermTaxonomy/blob/master/README.md
 	 * @version  0.2.4
 	 */
 	class SingleTermTaxonomy {
