@@ -29,7 +29,7 @@
   },
   "autoload": {
     "psr-4": {
-      "WPS\\Taxonomies\\": "src/"
+      "WPS\\WP\\Taxonomies\\": "src/"
     }
   }
 }

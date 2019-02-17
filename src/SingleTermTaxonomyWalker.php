@@ -17,7 +17,12 @@
  * @since      0.1.0
  */
 
-namespace WPS\Taxonomies;
+namespace WPS\WP\Taxonomies;
+
+// Exit if accessed directly.
+if ( ! defined( 'ABSPATH' ) ) {
+	exit;
+}
 
 if ( ! class_exists( 'WPS\Taxonomies\SingleTermTaxonomyWalker' ) && class_exists( 'Walker' ) ) :
 

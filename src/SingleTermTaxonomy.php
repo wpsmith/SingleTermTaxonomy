@@ -18,14 +18,14 @@
  * @since      0.1.0
  */
 
-namespace WPS\Taxonomies;
+namespace WPS\WP\Taxonomies;
 
 // Exit if accessed directly.
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'WPS\Taxonomies\SingleTermTaxonomy' ) ) {
+if ( ! class_exists( 'WPS\WP\Taxonomies\SingleTermTaxonomy' ) ) {
 	/**
 	 * Removes and replaces the built-in taxonomy metabox with <select> or series of <input type="radio" />
 	 *
