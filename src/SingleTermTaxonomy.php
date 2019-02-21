@@ -11,7 +11,7 @@
  *
  * @package    WPS\Taxonomy
  * @author     Travis Smith <t@wpsmith.net>
- * @copyright  2015-2018 Travis Smith
+ * @copyright  2015-2019 Travis Smith
  * @license    http://opensource.org/licenses/gpl-2.0.php GNU Public License v2
  * @link       https://github.com/wpsmith/WPS
  * @version    1.0.0
@@ -25,7 +25,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-if ( ! class_exists( 'WPS\WP\Taxonomies\SingleTermTaxonomy' ) ) {
+if ( ! class_exists( __NAMESPACE__ . '\SingleTermTaxonomy' ) ) {
 	/**
 	 * Removes and replaces the built-in taxonomy metabox with <select> or series of <input type="radio" />
 	 *
